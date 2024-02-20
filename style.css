@@ -83,7 +83,7 @@ header ul li a:hover {
   transition: 0.5s;
 }
 .content h1 {
-  font-size: 4em;
+  font-size: 4rem;
   max-width: 100%;
   text-shadow: 1px 1px 3px var(--txt-dark);
   margin-top: 70px;
@@ -536,5 +536,17 @@ form textarea {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
+  }
+  .contact {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    gap: 1rem;
+    padding-left: 0px;
+    padding-top: 0px;
+    color: var(--txt-dark);
+  }
+  .contact-text h2 {
+    font-size: 2rem;
   }
 }
