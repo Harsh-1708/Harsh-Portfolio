@@ -24,7 +24,7 @@ html {
   justify-content: space-between;
   align-items: center;
   min-height: 100vh;
-  /* padding: 100px; */
+  padding: 100px;
   transition: 0.8s;
   flex-wrap: wrap;
 }
@@ -84,8 +84,9 @@ header ul li a:hover {
 }
 .content h1 {
   font-size: 4em;
-  max-width: 800px;
+  max-width: 100%;
   text-shadow: 1px 1px 3px var(--txt-dark);
+  margin-top: 70px;
 }
 .content p {
   font-size: 23px;
